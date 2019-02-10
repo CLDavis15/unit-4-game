@@ -12,8 +12,8 @@ $(document).ready(function(){
     var wins = 0;
     var losses = 0;
 
-    $("#number-wins").text(wins);
-    $("#number-losses").text(losses);
+    $("#number-wins").text("Wins: " + wins);
+    $("#number-losses").text("Losses: " + losses);
 
 
     var crystalValues = {};

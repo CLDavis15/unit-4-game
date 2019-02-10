@@ -21,7 +21,7 @@ body{
 
 #game-directions{
     background-color: beige;
-    color: red;
+    color: darkgreen;
 }
 
 .image {
@@ -30,3 +30,19 @@ body{
 
 }
 
+#total-text {
+
+    font-size: 16pt; 
+
+
+    color: white;
+
+
+}
+#total-score{
+
+    font-size: 16pt;
+
+    color: white;
+
+}
