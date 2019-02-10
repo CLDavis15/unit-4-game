@@ -5,12 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector</title>
-<!-- Jquery link -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"></script>
+    
+    <!-- Jquery link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Bootstrap link -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
+    <style>
+    body{
+        background-image: url("assets/images/crystal-background.png");
+
+        background-attachment: fixed;
+
+        background-repeat: no-repeat;
+
+        background-size: cover;
+
+        text-align: center;
+
+    }
+    </style>
 
 </head>
 
@@ -19,7 +36,6 @@
     <div class="container">
 
 
-    </div>
         <!-- The Header for the game -->
         <h1 id="game-header">Crystals Collector!</h1>
 
@@ -39,6 +55,7 @@
             <li>Each time when the game starts, the game will change the values of each crystal.</li>
 
         </div>
+
         <div class="buttons">
 
             <img class="image" id="image1" src="assets/images/amethyst+crystal.jpeg">
@@ -47,14 +64,21 @@
             <img class="image" id="image4" src="assets/images/blue+crystal.jpeg">
         </div>
             
-        <h3 id="number-needed">Number to Guess: </h3>
-        <div id="number-wins">Wins: </div>
-        <div id="number-losses">Losses: </div>
-        <div id="total-score">Your total score: </div>
+        <h3 id="number-needed"> Number to Guess: </h3>
 
+        <div id="number-wins"> Wins: </div>
+
+        <div id="number-losses"> Losses: </div>
+
+        <div id="total-score"> Your total score: </div>
+
+    </div>
+
+    
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
-    <script type="text/javascript" src="game.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 
 

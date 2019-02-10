@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     
     var targetNumber = Math.floor((Math.random() * 120) + 19);
-    console.log(targetNumber);
+    
     
     // the target number needed to win the game.
     
@@ -17,21 +17,22 @@ $(document).ready(function(){
 
 
     var crystalValues = {};
-    crystalValues[1] = Math.floor(Math.random() * 12) + 1);
-    crystalValues[2] = Math.floor(Math.random() * 12) + 1);
-    crystalValues[3] = Math.floor(Math.random() * 12) + 1);
-    crystalValues[4] = Math.floor(Math.random() * 12) + 1);
-   
+
+        crystalValues[1] = Math.floor((Math.random() * 12) + 1);
+        crystalValues[2] = Math.floor((Math.random() * 12) + 1);
+        crystalValues[3] = Math.floor((Math.random() * 12) + 1);
+        crystalValues[4] = Math.floor((Math.random() * 12) + 1);
+    
     function reset() {
         targetNumber = Math.floor((Math.random() * 120) + 19);
 
         $("#number-needed").text(targetNumber);
 
         var crystalValues = {};
-        crystalValues[1] = Math.floor(Math.random() * 12) + 1);
-        crystalValues[2] = Math.floor(Math.random() * 12) + 1);
-        crystalValues[3] = Math.floor(Math.random() * 12) + 1);
-        crystalValues[4] = Math.floor(Math.random() * 12) + 1);
+        crystalValues[1] = Math.floor((Math.random() * 12) + 1);
+        crystalValues[2] = Math.floor((Math.random() * 12) + 1);
+        crystalValues[3] = Math.floor((Math.random() * 12) + 1);
+        crystalValues[4] = Math.floor((Math.random() * 12) + 1);
 
         userTotal = 0;
 
@@ -53,7 +54,7 @@ $(document).ready(function(){
     }
     
 
-    function getCrystalTotal() {
+    function getCrystalTotal(crystalKey) {
         return function(){
             userTotal = userTotal + crystalValues[crystalKey];
             console.log("New userTotal" + userTotal);
