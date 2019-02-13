@@ -46,3 +46,25 @@ body{
     color: white;
 
 }
+#wins{
+    color: white;
+
+    font-size: 16pt;
+}
+
+#losses{
+    color: white;
+
+    font-size: 16pt;
+
+}
+.numbers{
+    color: white;
+
+    font-size: 16pt;
+
+}
+#number-needed{
+    color: white;
+    
+}
